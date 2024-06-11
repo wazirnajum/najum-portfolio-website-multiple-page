@@ -185,3 +185,60 @@ hr {
 .social-media-icons p {
   font-size: 13px;
 }
+@media (max-width: 1130px) {
+  .home {
+    width: 95%;
+    flex-direction: column-reverse;
+  }
+  .home-image {
+    margin-bottom: 20px;
+  }
+  .view-all a {
+    display: none;
+  }
+  .view-all {
+    text-align: center;
+  }
+  .recent-post-contents {
+    flex-direction: column;
+  }
+  .featured {
+    margin-top: 50px;
+  }
+  .dashboard {
+    flex-direction: column;
+  }
+  .image img {
+    width: 500px;
+  }
+}
+@media (max-width: 770px) {
+  .home {
+    width: 95%;
+    text-align: center;
+  }
+  .home h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .home p {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+  .recent-post {
+    width: 100%;
+    margin: 4% auto;
+    padding: 10px 15px;
+  }
+  .featured {
+    width: 85%;
+    margin: -40px auto;
+  }
+  .navbar {
+    /* padding: 8px 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
